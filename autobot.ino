@@ -9,7 +9,11 @@ int frontBumper = D2;
 int frontRightBumper = D6;
 int frontLeftBumper = D3;
 
-int speed = 150;
+int statusLED = D7;
+
+int speed = 100;
+int spiralRate = speed / 2;
+
 int FORWARD = 1;
 int BACK = 0;
 int RIGHT = 0;
@@ -26,6 +30,10 @@ void setup() {
   pinMode(frontBumper, INPUT_PULLUP);
   pinMode(frontRightBumper, INPUT_PULLUP);
   pinMode(frontLeftBumper, INPUT_PULLUP);
+
+  pinMode(statusLED, OUTPUT);
+
+  spiralStart();
 }
 
 void checkBumper(int bumper, std::function<void ()> response) {
@@ -41,7 +49,18 @@ void stop() {
   analogWrite(leftMotor, 0);
 }
 
+void spiralStart() {
+  stop();
+
+  digitalWrite(rightMotorDir, FORWARD);
+  digitalWrite(leftMotorDir, FORWARD);
+
+  analogWrite(leftMotor, speed * 1.25);
+}
+
 void go(int dir) {
+  spiralRate = 0;
+  digitalWrite(statusLED, LOW);
   stop();
 
   digitalWrite(rightMotorDir, dir);
@@ -91,6 +110,17 @@ void bumpFrontLeft() {
 }
 
 void loop() {
+  if (spiralRate > 0) {
+    digitalWrite(statusLED, HIGH);
+    delay(400);
+    if (spiralRate < (speed * .90)) {
+      spiralRate = spiralRate + 1;
+
+      analogWrite(rightMotor, spiralRate);
+    }
+    Serial.println(spiralRate);
+  }
+
   checkBumper(frontBumper, bumpFront);
   checkBumper(frontRightBumper, bumpFrontRight);
   checkBumper(frontLeftBumper, bumpFrontLeft);
