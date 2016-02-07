@@ -4,7 +4,7 @@ I'm tired of vacuuming up after my dogs so much. They're constantly shedding, so
 
 This is the current state of the quick prototype I threw together.
 ![Quick Prototype](./prototype.jpg)
-[Video](./prototype.mov?raw=true) of a quick test of the prototype
+[Video](./prototype.mov?raw=true) of a quick test of the prototype cleaning my living room.
 
 ![Breadboard diagram](./Wiring_bb.png)
 
