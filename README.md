@@ -1,5 +1,3 @@
-# tidyBot
-
 I'm tired of vacuuming up after my dogs so much. They're constantly shedding, so I decided to build a robot vacuum.
 
 This is the current state of the quick prototype I threw together.
