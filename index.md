@@ -6,12 +6,12 @@ layout: index
 I'm tired of vacuuming up after my dogs so much. They're constantly shedding, so I decided to build a robot vacuum.
 
 This is the current state of the quick prototype I threw together.
-![Quick Prototype](./prototype.jpg)
-[Video](./prototype.mov?raw=true) of a quick test of the prototype cleaning my living room.
+![Quick Prototype](./readme-assets/prototype.jpg)
+[Video](./readme-assets/prototype.mov?raw=true) of a quick test of the prototype cleaning my living room.
 
-![Breadboard diagram](./Wiring_bb.png)
+![Breadboard diagram](./readme-assets/Wiring_bb.png)
 
-![Wiring Schematic](./Wiring_schem.png)
+![Wiring Schematic](./readme-assets/Wiring_schem.png)
 
 ## Parts List
  - [Photon Particle](https://store.particle.io/?utm_source=homesite&utm_medium=Nav&utm_campaign=TopMenu) (still not sure if I will use this or an Uno)
