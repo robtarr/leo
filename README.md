@@ -10,7 +10,7 @@ This is the current state of the quick prototype I threw together.
 
 ## Parts List
  - [Photon Particle](https://store.particle.io/?utm_source=homesite&utm_medium=Nav&utm_campaign=TopMenu) (still not sure if I will use this or an Uno)
- - [12V LiPo Battery](http://www.ebay.com/sch/i.html?_odkw=Rechargeable+Li-ion+battery+for+DC+12V&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XRechargeable+Li-ion+battery+12V.TRS0&_nkw=Rechargeable+Li-ion+battery+12V&_sacat=0)
+ - [12V Li-ion Battery](http://www.ebay.com/sch/i.html?_odkw=Rechargeable+Li-ion+battery+for+DC+12V&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XRechargeable+Li-ion+battery+12V.TRS0&_nkw=Rechargeable+Li-ion+battery+12V&_sacat=0)
  - [L9110S Motor Controller](http://www.ebay.com/sch/i.html?_odkw=Rechargeable+Li-ion+battery+12V&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.XL9110S.TRS0&_nkw=L9110S&_sacat=0) (I can't find a Fritzing part for this, and haven't taken the time to make this yet)
  - [5V Voltage Regulator](http://www.ebay.com/sch/i.html?_odkw=L9110S&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR3.TRC2.A0.H0.X5v+voltage+regulator.TRS0&_nkw=5v+voltage+regulator&_sacat=0)
  - [47µF Capacitor](http://www.ebay.com/sch/i.html?_odkw=.47+capacitor&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xelectrolytic+.47+capacitor+.TRS0&_nkw=electrolytic+.47+capacitor+&_sacat=0) (currently using 2 22µF)
