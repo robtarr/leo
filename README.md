@@ -18,13 +18,9 @@ This is the current state of the quick prototype I threw together.
  - [Diode](http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR0.TRC0.H0.Xdiode.TRS0&_nkw=diode&_sacat=0)
  - [12V Squirrel Cage Blower](https://www.sparkfun.com/products/11270)
  - [Roomba Replacement brush roller](http://www.ebay.com/sch/i.html?_odkw=roomba+replacement&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR1.TRC0.A0.H0.Xroomba+replacement+brush.TRS1&_nkw=roomba+replacement+brush&_sacat=0)
- - [1/8" Hardboard](http://www.homedepot.com/p/Hardboard-Tempered-Common-1-8-in-x-2-ft-x-4-ft-Actual-0-125-in-x-23-75-in-x-47-75-in-7005015/202088786)
  - 3x Contact switches (homemade)
 
 ## Todo
- - Rename this thing
- - Add a roller brush (currently in transit)
- - Improve straight line driving and turning with motor encoders
- - Move everything from the breadboard to a soldered proto board
- - Build an actual frame/body (from the 1/8" hardboard)
+ - Layout PCB
+ - Build an actual frame/body (from Sintra)
  - Full bin detector (IR LED and sensor?)
