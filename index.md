@@ -5,12 +5,17 @@ layout: index
 
 I'm tired of vacuuming up after my dogs so much. They're constantly shedding, so I decided to build a robot vacuum.
 
-This is the current state of the quick prototype I threw together.
-![Quick Prototype](./readme-assets/prototype.jpg)
 [Video](./readme-assets/prototype.mov?raw=true) of a quick test of the prototype cleaning my living room.
 
+I've worked out the design in Sketchup.
+
+![Outside](./readme-assets/sketchup-outside.png)
+![Inside](./readme-assets/sketchup-inside.png)
+
+### Diagram of the components
 ![Breadboard diagram](./readme-assets/Wiring_bb.png)
 
+### Schematic
 ![Wiring Schematic](./readme-assets/Wiring_schem.png)
 
 ## Parts List
